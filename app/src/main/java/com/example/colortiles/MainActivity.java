@@ -94,9 +94,9 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void onClick(View v) {
-        String tag = v.getTag().toString(); // получение тэга на кнопке
+        String tag = v.getTag().toString(); //получение тэга на кнопке
 
-        int x, y; // координаты тайла и строки вида "00"
+        int x, y; //координаты тайла и строки вида "00"
 
         y = Integer.parseInt(tag) % 10;
         x = Integer.parseInt(tag) / 10;
